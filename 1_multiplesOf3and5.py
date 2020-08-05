@@ -3,4 +3,7 @@ def multiplesOf3and5():
 	for i in range(1000):
 		if(i%3==0):
 			sum=sum+i
-multiplesOf3and5();
+		elif(i%5==0):
+			sum=sum+i
+	return sum
+print(multiplesOf3and5())
